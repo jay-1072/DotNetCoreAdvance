@@ -1,0 +1,148 @@
+2024-03-18 21:02:03.290 +05:30 [Fatal] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 6 }] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-03-18 21:02:03.332 +05:30 [Error] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 11, Name: "HostedServiceStartupFaulted" }] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-03-18 21:03:24.199 +05:30 [Fatal] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 6 }] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-03-18 21:03:24.238 +05:30 [Error] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 11, Name: "HostedServiceStartupFaulted" }] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-03-18 21:03:56.771 +05:30 [Fatal] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 6 }] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-03-18 21:03:56.809 +05:30 [Error] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 11, Name: "HostedServiceStartupFaulted" }] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-03-18 21:06:18.776 +05:30 [Fatal] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 6 }] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-03-18 21:06:18.811 +05:30 [Error] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 11, Name: "HostedServiceStartupFaulted" }] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-03-18 21:09:25.976 +05:30 [Fatal] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 6 }] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-03-18 21:09:26.016 +05:30 [Error] [Microsoft.Extensions.Hosting.Internal.Host] [{ Id: 11, Name: "HostedServiceStartupFaulted" }] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'DotNetCoreAdvance.Interfaces.IAuditLoggerRepository' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-03-18 21:09:59.921 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger 
+2024-03-18 21:09:59.969 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger" responded 301 in 12.0800 ms
+2024-03-18 21:10:00.920 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 301 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:10:03.069 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger/index.html 
+2024-03-18 21:10:03.131 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 62.0886 ms
+2024-03-18 21:10:04.302 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:10:17.987 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger/swagger-ui.css 
+2024-03-18 21:10:17.987 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger/swagger-ui-bundle.js 
+2024-03-18 21:10:17.987 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger/swagger-ui-standalone-preset.js 
+2024-03-18 21:10:17.997 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 9.9999 ms
+2024-03-18 21:10:17.997 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 10.4519 ms
+2024-03-18 21:10:17.998 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:10:17.999 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:10:18.000 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 13.0219 ms
+2024-03-18 21:10:18.004 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:10:18.203 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger/v1/swagger.json 
+2024-03-18 21:10:18.223 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /swagger/favicon-32x32.png 
+2024-03-18 21:10:18.223 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.3849 ms
+2024-03-18 21:10:18.224 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:10:18.290 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 86.1215 ms
+2024-03-18 21:10:18.290 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:11:08.075 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /api/v1.0/User/GetAllUser 
+2024-03-18 21:11:26.310 +05:30 [Error] [] [] {"ClassName":"StackExchange.Redis.RedisConnectionException","Message":"The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 2s ago, v: 2.6.122.38350, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: 127.0.0.1:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SF-LAP-447(SE.Redis-v2.6.122.38350), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=12,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=136,Timers=5), v: 2.6.122.38350 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)","Data":{"Redis-Message":"HMGET user","Redis-Timeout":"5000","Redis-OpsSinceLastHeartbeat":"0","Redis-Queue-Awaiting-Write":"0","Redis-Queue-Awaiting-Response":"0","Redis-Active-Writer":"False","Redis-Backlog-Writer":"CheckingForTimeout","Redis-Read-State":"NotStarted","Redis-Write-State":"Initializing","Redis-Inbound-Bytes":"0","Redis-Last-Result-Bytes":"0","Redis-Inbound-Buffer-Bytes":"0","Redis-Sync-Ops":"0","Redis-Async-Ops":"1","Redis-Server-Endpoint":"127.0.0.1:6379","Redis-Server-Connected-Seconds":"n/a","Redis-Abort-On-Connect":"0","Redis-Multiplexer-Connects":"1/1/0","Redis-Manager":"10 of 10 available","Redis-Client-Name":"SF-LAP-447(SE.Redis-v2.6.122.38350)","Redis-ThreadPool-IO-Completion":"(Busy=0,Free=1000,Min=1,Max=1000)","Redis-ThreadPool-Workers":"(Busy=0,Free=32767,Min=12,Max=32767)","Redis-ThreadPool-Items":"(Threads=6,QueuedItems=0,CompletedItems=136,Timers=5)","Redis-Busy-Workers":"0","Redis-Version":"2.6.122.38350","redis-command":"HMGET user","request-sent-status":3,"redis-server":"127.0.0.1:6379"},"InnerException":{"ClassName":"StackExchange.Redis.RedisConnectionException","Message":"UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 2s ago, v: 2.6.122.38350","Data":{"Redis-FailureType":"UnableToConnect","Redis-EndPoint":"127.0.0.1:6379","Redis-Origin":"BeginConnectAsync","Redis-Outstanding-Responses":"0","Redis-Last-Read":"0s ago","Redis-Last-Write":"0s ago","Redis-Keep-Alive":"60s","Redis-Previous-Physical-State":"Connecting","Redis-Manager":"10 of 10 available","Redis-Last-Heartbeat":"never","Redis-Last-Global-Heartbeat":"2s ago","Redis-Version":"2.6.122.38350"},"InnerException":null,"HelpURL":null,"StackTraceString":null,"RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":null,"HResult":-2146233088,"Source":null,"WatsonBuckets":null,"failureType":9,"commandStatus":0},"HelpURL":"https://stackexchange.github.io/StackExchange.Redis/Timeouts","StackTraceString":"   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)\r\n   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)\r\n   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)\r\n   at DotNetCoreAdvance.Cache.CacheService.GetData[T](String key) in C:\\Users\\jay\\OneDrive - Simform Solutions Pvt. Ltd\\Documents\\AspNetCoreAdvanceConcept\\DotNetCoreAdvance\\DotNetCoreAdvance\\Cache\\CacheService.cs:line 18\r\n   at DotNetCoreAdvance.Controllers.UserController.GetAllUser() in C:\\Users\\jay\\OneDrive - Simform Solutions Pvt. Ltd\\Documents\\AspNetCoreAdvanceConcept\\DotNetCoreAdvance\\DotNetCoreAdvance\\Controllers\\UserController.cs:line 203","RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":null,"HResult":-2146233088,"Source":"System.Private.CoreLib","WatsonBuckets":null,"failureType":9,"commandStatus":3}
+2024-03-18 21:11:26.987 +05:30 [Error] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/v1.0/User/GetAllUser" responded 500 in 18911.5020 ms
+2024-03-18 21:11:26.987 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 500 Response Body: System.Threading.Tasks.Task`1[System.String]
+2024-03-18 21:12:09.642 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Request: GET /api/v1.0/User/GetAllUser 
+2024-03-18 21:12:11.861 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/v1.0/User/GetAllUser" responded 200 in 2218.7440 ms
+2024-03-18 21:12:11.861 +05:30 [Information] [DotNetCoreAdvance.Middleware.CustomMiddleware] [] Response Status: 200 Response Body: System.Threading.Tasks.Task`1[System.String]

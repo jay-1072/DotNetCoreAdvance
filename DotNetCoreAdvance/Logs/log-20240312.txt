@@ -1,0 +1,46 @@
+2024-03-12 20:53:43.659 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 88.5761 ms
+2024-03-12 20:53:43.916 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 90.5853 ms
+2024-03-12 20:54:12.924 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 84.9915 ms
+2024-03-12 20:54:13.264 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 144.4661 ms
+2024-03-12 20:55:00.884 +05:30 [Error] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] [{ Id: 1, Name: "UnhandledException" }] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'DotNetCoreAdvance.Cache.ICacheService' while attempting to activate 'DotNetCoreAdvance.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-12 20:55:00.920 +05:30 [Error] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "DELETE" "/DeleteUser" responded 500 in 1202.8225 ms
+2024-03-12 21:19:21.151 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 79.9693 ms
+2024-03-12 21:19:21.423 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 101.5229 ms
+2024-03-12 21:20:06.189 +05:30 [Error] [] [] {"ClassName":"System.ArgumentNullException","Message":"Value cannot be null.","Data":null,"InnerException":null,"HelpURL":null,"StackTraceString":"   at StackExchange.Redis.ConfigurationOptions.DoParse(String configuration, Boolean ignoreUnknown) in /_/src/StackExchange.Redis/ConfigurationOptions.cs:line 820\r\n   at StackExchange.Redis.ConfigurationOptions.Parse(String configuration, Boolean ignoreUnknown) in /_/src/StackExchange.Redis/ConfigurationOptions.cs:line 638\r\n   at StackExchange.Redis.ConfigurationOptions.Parse(String configuration) in /_/src/StackExchange.Redis/ConfigurationOptions.cs:line 628\r\n   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.GetConfiguredOptions(String libSuffix)\r\n   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.ConnectSlowAsync(CancellationToken token)\r\n   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)\r\n   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)\r\n   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)\r\n   at DotNetCoreAdvance.Cache.CacheService.RemoveData(String key) in C:\\Users\\jay\\OneDrive - Simform Solutions Pvt. Ltd\\Documents\\AspNetCoreAdvanceConcept\\DotNetCoreAdvance\\DotNetCoreAdvance\\Cache\\CacheService.cs:line 40\r\n   at DotNetCoreAdvance.Controllers.UserController.DeleteUser(String userId) in C:\\Users\\jay\\OneDrive - Simform Solutions Pvt. Ltd\\Documents\\AspNetCoreAdvanceConcept\\DotNetCoreAdvance\\DotNetCoreAdvance\\Controllers\\UserController.cs:line 121","RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":null,"HResult":-2147467261,"Source":"StackExchange.Redis","WatsonBuckets":null,"ParamName":"configuration"}
+2024-03-12 21:20:07.337 +05:30 [Error] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "DELETE" "/DeleteUser" responded 500 in 5887.0029 ms
+2024-03-12 21:20:46.956 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 76.9255 ms
+2024-03-12 21:20:47.245 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 93.8255 ms
+2024-03-12 21:22:27.220 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 119.8799 ms
+2024-03-12 21:22:27.568 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 107.7765 ms
+2024-03-12 21:22:46.206 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 98.0439 ms
+2024-03-12 21:22:46.478 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 102.8344 ms
+2024-03-12 21:26:05.548 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 128.9635 ms
+2024-03-12 21:26:05.842 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 92.7040 ms
+2024-03-12 22:45:44.545 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger" responded 301 in 11.8480 ms
+2024-03-12 22:45:44.669 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 55.6895 ms
+2024-03-12 22:45:44.720 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 33.4484 ms
+2024-03-12 22:45:44.736 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 41.4295 ms
+2024-03-12 22:45:44.746 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 51.1422 ms
+2024-03-12 22:45:45.078 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 128.9178 ms
+2024-03-12 22:48:27.507 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/GetAllUser" responded 200 in 119439.2106 ms
+2024-03-12 22:49:12.144 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 65.9447 ms
+2024-03-12 22:49:12.493 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 79.0541 ms
+2024-03-12 22:50:06.601 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "POST" "/AddUser" responded 200 in 1097.7317 ms
+2024-03-12 22:50:17.974 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/GetAllUser" responded 200 in 2769.7372 ms
+2024-03-12 22:51:27.442 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "POST" "/AddUser" responded 200 in 11246.0294 ms
+2024-03-12 22:51:53.515 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/GetAllUser" responded 200 in 13654.6605 ms
+2024-03-12 22:52:13.267 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/GetAllUser" responded 200 in 1827.8034 ms

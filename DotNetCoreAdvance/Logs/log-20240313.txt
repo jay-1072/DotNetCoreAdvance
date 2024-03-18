@@ -1,0 +1,78 @@
+2024-03-13 21:02:25.698 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger" responded 301 in 8.9610 ms
+2024-03-13 21:02:25.802 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 43.5505 ms
+2024-03-13 21:02:25.863 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 36.2292 ms
+2024-03-13 21:02:25.868 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 36.8506 ms
+2024-03-13 21:02:25.885 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 53.6774 ms
+2024-03-13 21:02:26.217 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 82.1511 ms
+2024-03-13 21:02:57.341 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 68.2332 ms
+2024-03-13 21:02:57.690 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 25.9916 ms
+2024-03-13 21:04:11.416 +05:30 [Fatal] [] [] Application terminated unexpectedly
+System.InvalidOperationException: The following errors occurred with attribute routing information:
+
+Error 1:
+For action: 'DotNetCoreAdvance.Controllers.UserController.AddUser (DotNetCoreAdvance)'
+Error: While processing template 'api/[contoller]/AddUser', a replacement value for the token 'contoller' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 2:
+For action: 'DotNetCoreAdvance.Controllers.UserController.EditUser (DotNetCoreAdvance)'
+Error: While processing template 'api/[contoller]/EditUser', a replacement value for the token 'contoller' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 3:
+For action: 'DotNetCoreAdvance.Controllers.UserController.DeleteUser (DotNetCoreAdvance)'
+Error: While processing template 'api/[contoller]/DeleteUser', a replacement value for the token 'contoller' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 4:
+For action: 'DotNetCoreAdvance.Controllers.UserController.GetUser (DotNetCoreAdvance)'
+Error: While processing template 'api/[contoller]/GetUser', a replacement value for the token 'contoller' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+
+Error 5:
+For action: 'DotNetCoreAdvance.Controllers.UserController.GetAllUser (DotNetCoreAdvance)'
+Error: While processing template 'api/[contoller]/GetAllUser', a replacement value for the token 'contoller' could not be found. Available tokens: 'action, controller'. To use a '[' or ']' as a literal string in a route or within a constraint, use '[[' or ']]' instead.
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.Flatten[TResult](ApplicationModel application, Func`5 flattener)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.Extensions.Primitives.ChangeToken.ChangeTokenRegistration`1..ctor(Func`1 changeTokenProducer, Action`1 changeTokenConsumer, TState state)
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at Program.<Main>$(String[] args) in C:\Users\jay\OneDrive - Simform Solutions Pvt. Ltd\Documents\AspNetCoreAdvanceConcept\DotNetCoreAdvance\DotNetCoreAdvance\Program.cs:line 93
+2024-03-13 21:04:58.174 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 68.8083 ms
+2024-03-13 21:04:58.387 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 84.6071 ms
+2024-03-13 21:08:02.420 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 61.0764 ms
+2024-03-13 21:08:02.640 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 85.9040 ms
+2024-03-13 21:08:45.858 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "PUT" "/api/User/EditUser" responded 200 in 6197.6253 ms
+2024-03-13 21:10:00.772 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "PUT" "/api/User/EditUser" responded 200 in 2316.2548 ms
+2024-03-13 21:11:27.655 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 74.5993 ms
+2024-03-13 21:11:27.885 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 66.6323 ms
+2024-03-13 21:11:35.066 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 1228.7646 ms
+2024-03-13 21:13:04.979 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 3021.9466 ms
+2024-03-13 21:13:13.255 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 400 in 10.4186 ms
+2024-03-13 21:13:28.570 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 2096.8751 ms
+2024-03-13 22:40:50.842 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 164.1844 ms
+2024-03-13 22:40:51.112 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 112.7412 ms
+2024-03-13 22:41:28.940 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 76.8590 ms
+2024-03-13 22:41:29.145 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 74.5183 ms
+2024-03-13 22:41:55.988 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 1425.2141 ms
+2024-03-13 22:42:21.609 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 3025.7378 ms
+2024-03-13 22:43:05.736 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 21.6287 ms
+2024-03-13 22:43:21.874 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 73.3310 ms
+2024-03-13 22:43:22.082 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 82.3524 ms
+2024-03-13 22:43:29.954 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 1230.0037 ms
+2024-03-13 22:43:45.783 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 55.8644 ms
+2024-03-13 22:43:55.001 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 2175.4258 ms
+2024-03-13 22:48:30.622 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 70.0916 ms
+2024-03-13 22:48:30.870 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 102.4884 ms
+2024-03-13 22:48:59.221 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 14843.8757 ms
+2024-03-13 22:49:15.913 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 400 in 20.7886 ms
+2024-03-13 22:49:24.512 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 55.4842 ms
+2024-03-13 22:49:34.860 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 2793.7171 ms
+2024-03-13 22:52:21.890 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/index.html" responded 200 in 66.3455 ms
+2024-03-13 22:52:22.117 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 88.3877 ms
+2024-03-13 22:52:38.437 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/v1/User/GetAllUser" responded 200 in 3527.0210 ms
+2024-03-13 22:52:52.631 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/v2/User/GetAllUser" responded 400 in 11.3407 ms
+2024-03-13 22:52:58.994 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/v3/User/GetAllUser" responded 400 in 1.1542 ms
+2024-03-13 22:53:13.441 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 2103.7531 ms
+2024-03-13 22:53:22.858 +05:30 [Information] [Serilog.AspNetCore.RequestLoggingMiddleware] [] HTTP "GET" "/api/User/GetAllUser" responded 200 in 23.6173 ms
